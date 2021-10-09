@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="Test Automation Script" parallel="false" thread-count="2">
+
+    <!--<parameter name="useCloudEnv" value="true"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserVersion" value="75.0"/>
+    <parameter name="url" value="https://nypost.com/"></parameter>-->
+
+
+<!--
+    <test name = "Chrome Test">
+        <parameter name="browserName" value="chrome"/>
+
+        <classes>
+            <class name="testPages.LogInTest" />
+        </classes>
+    </test>
+-->
+
+    <test name = "Edge Test">
+        <parameter name="browserName" value="edge"/>
+
+        <classes>
+            <class name="testPages.LogInTest" />
+        </classes>
+    </test>
+
+</suite>
